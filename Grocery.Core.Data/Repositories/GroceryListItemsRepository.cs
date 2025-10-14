@@ -13,6 +13,8 @@ namespace Grocery.Core.Data.Repositories
 
         {
             //ISO 8601 format: date.ToString("o", CultureInfo.InvariantCulture)
+            CreateTable("DROP TABLE IF EXISTS GroceryListItems;"); 
+
             CreateTable(@"CREATE TABLE IF NOT EXISTS GroceryListItems (
                             [Id] INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
                             [GroceryListId] INTEGER NOT NULL,
