@@ -5,7 +5,7 @@
              x:Class="Grocery.App.Views.ProductView"
              Title="ProductView">
     
-    <Shell.TitleView>
+        <Shell.TitleView>
         <Grid>
             <Label Text="Producten" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center" />
         </Grid>
